@@ -1,0 +1,34 @@
+
+.top-bg {
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.menu-btn {
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+
+.display-table {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    padding-bottom: 1.5%;
+}
+
+@media (max-width: 768px) {
+    .top-bg {
+        background-size: contain;
+    }
+
+    .menu-btn {
+        background-size: contain;
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.top-bg {
+    background-image: url("https://event.thunderstrike.garena.tw/20150821_starwar/images/index_top.jpg");
+}
+
+#btn1 {
+    background-image: url("https://event.thunderstrike.garena.tw/20150821_starwar/images/tab01.png");
+}
+
+#top {
+    padding-top: 787px;
+}
+
+.menu-btn {
+    width: 148px;
+    height: 39px;
+}
+
+@media (max-width: 768px) {
+    .top-bg {
+        background-image: url("https://event.thunderstrike.garena.tw/20150821_starwar/images/moblie_bg.jpg");
+    }
+
+    #top {
+        padding-top: calc(100% * 670 / 800);
+    }
+}
